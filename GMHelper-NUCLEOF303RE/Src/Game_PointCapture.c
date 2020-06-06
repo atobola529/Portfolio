@@ -469,7 +469,7 @@ void PointCapture_DominatingTeam_Choose()
 	else PC_DATA.DominatingTeam = 2;
 }
 
-void PointCapture_DisplayTime(uint16_t X, uint16_t Y, TimeID_TypeDef which_time) //X,Y - begining of string
+void PointCapture_DisplayTime(uint16_t X, uint16_t Y, TimeID_TypeDef which_time) //X,Y - beginning of string
 {
 	char buff[10];
 	char *pbuff = &buff;

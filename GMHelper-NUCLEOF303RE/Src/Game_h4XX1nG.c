@@ -192,14 +192,14 @@ void h4XX1nG_tick_it()
 	if(ETA > 0)h4XX1nG_tick = 1;
 }
 
-void h4XX1nG_GetETA(uint8_t *HH, uint8_t *MM, uint8_t *SS)
+void h4XX1nG_SetETA(uint8_t *HH, uint8_t *MM, uint8_t *SS)
 {
 	uint8_t Hour = *HH;
 	uint8_t Minute = *MM;
 	uint8_t Second = *SS;
 
 	ETA = (Hour * 3600) + (Minute * 60) + Second;
-	ETA = ETA/(1 + RNG_Random()%5);
+	ETA = ETA/(2 + RNG_Random()%4);
 	ETA_MAX = ETA;
 }
 

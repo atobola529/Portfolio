@@ -90,7 +90,6 @@ int main(void)
   /* USER CODE END Init */
 
   /* Configure the system clock */
-  SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
 
@@ -131,25 +130,15 @@ int main(void)
   //-----MENU-----
   MainMenu_Display();
 
-  //-----TESTING-----
-  //Buzzer_PlayTrack1();
 
 
   while (1)
   {
-	  uint8_t y;
-	  char buff[10];
-	  char *pbuff = &buff;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	//DisplayPluggedKey();
 	Buzzer_note_duration_service();
 	MainMenu_service();
-	  //DisplayPluggedKey();
-	  //ADCKeyboard_GetButtonsState(&y);
-	  //if(y < Button_ANY) ST7735_PutStr5x7(30, 30, itoa((1+RNG_Random())%18, pbuff, 10), COLOR565_BEIGE, COLOR565_BLACK);
-
   }
   /* USER CODE END 3 */
 }

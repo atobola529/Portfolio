@@ -25,7 +25,7 @@ void h4XX1nG_progress_bar(float bar_status);
 void h4XX1nG_tick_service();
 void h4XX1nG_tick_it();
 
-void h4XX1nG_GetETA(uint8_t *HH, uint8_t *MM, uint8_t *SS);
+void h4XX1nG_SetETA(uint8_t *HH, uint8_t *MM, uint8_t *SS);
 void h4XX1nG_done();
 uint8_t h4XX1nG_GetStatus();
 

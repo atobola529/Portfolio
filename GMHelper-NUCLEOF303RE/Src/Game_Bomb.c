@@ -153,7 +153,7 @@ void Bomb_tick_service()
 		{
 			switch(Bomb_flags.settings)
 			{
-				case step1:
+				case step1: //Display menu
 					{
 						if(Bomb_flags.mode == STANDARD) Bomb_Settings_Menu();
 						else Bomb_Settings_Menu_2();
@@ -288,7 +288,7 @@ void Bomb_tick_service()
 				{
 					h4XX1nG_reboot();
 					h4XX1nG_menu();
-					h4XX1nG_GetETA(&Bomb_DATA.time_HH, &Bomb_DATA.time_MM, &Bomb_DATA.time_SS);
+					h4XX1nG_SetETA(&Bomb_DATA.time_HH, &Bomb_DATA.time_MM, &Bomb_DATA.time_SS);
 					Bomb_flags.h4XX1nG++;
 					break;
 				}
