@@ -1,10 +1,19 @@
 Point Capture
-Time is counted for team which controls point. Two buttons for two teams. Time display - LCD.
+Time is counted for team which controls point. Two buttons for two teams. 
+Time display - LCD.
+
 Two modes: 
-Set game time and team colors. When time reaches zero game ends and team with longer control time wins (v1),
-Set control time and team colors. Win is achievable by controlling point for given time. Time is not reseted when enemy team capture (v2).
+Set game time and team colors. When time reaches zero game ends and team with longer 
+control time wins (v1),
+
+Set control time and team colors. Win is achievable by controlling point for given time. 
+Time is not reseted when enemy team capture (v2).
 
 Bomb 
 Device is working like bomb in movies/video games. Set time and pin which “arms” it.
+
 submode:
--For “defusing” digital key and PIN is needed (those are setted by GM). One key is randomized. This is special “hacking” key which allow to “defuse” without knowing PIN, but it will require some time (randomized between ½ to ⅕ remaining game time).
+For “defusing” digital key and PIN is needed (those are setted by GM). 
+One key is randomized. This is special “hacking” key which allow to “defuse”
+ without knowing PIN, but it will require some time (randomized between ½ to ⅕ 
+remaining game time).
